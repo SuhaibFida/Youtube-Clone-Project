@@ -1,0 +1,75 @@
+/* HEader ---------------------- */
+.header{
+    display:flex;
+    flex-direction:row;
+    height:55px;
+    justify-content:space-between
+    
+}
+.first-sec{
+    background-color: blue;
+     width:150px;
+}
+.second-sec{
+    background-color: yellow;
+    flex:1;
+    margin-left:70px;
+    margin-right:35px;
+    max-width: 300px;
+
+}
+.third-sec{
+    background-color: pink;
+ width:200px;
+}
+
+p{
+    margin: 0;
+}
+.page1{
+vertical-align:top;
+}
+.thumbnail{
+    margin-bottom: 10px;
+}
+.image1,.image2{
+    
+    width:100%;
+  
+}
+.title{
+    font-weight:500;
+    font-size: 14px;
+    font-family: serif;
+    margin-bottom: 12px;
+   
+
+}
+.div1{
+    display:inline-block;
+}
+.div2{
+    display:inline-block;
+    margin-left:15px;
+}
+
+.profile1{
+width:90%;
+height:45px;
+object-fit: cover;
+border-radius: 50px;;
+margin-top:5px;
+margin-right:px;
+
+}
+ 
+.grid1{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.video-grid{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    column-gap: 15px;
+    row-gap: 40px;
+}
