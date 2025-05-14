@@ -5,4 +5,3 @@ This YouTube Clone Project is a web-based video-sharing platform that replicates
     
    1) Html.
    2) Css.
-   3)  
